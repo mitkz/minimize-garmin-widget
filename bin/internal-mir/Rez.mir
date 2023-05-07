@@ -342,7 +342,7 @@ C_Users_itocchi_dev_widgets_strava_api_bin_gen_006_B2700_00_source_Rez_mcgen_59_
             invoke %tmp.30 %tmp.31(%tmp.37, %tmp.39);
 [ "C:\Users\itocchi\dev\widgets\strava-api\bin\gen\006-B2700-00\source\Rez.mcgen" 63 12 ]
             [ "C_Users_itocchi_dev_widgets_strava_api_bin_gen_006_B2700_00_source_Rez_mcgen_59_75_start" "C_Users_itocchi_dev_widgets_strava_api_bin_gen_006_B2700_00_source_Rez_mcgen_59_75_stop" ]
-            %rez_cmp_local_text_1145625706.2 = local;
+            %rez_cmp_local_text_1680639895.2 = local;
             %tmp.42 = getm $.Toybox.WatchUi;
             %tmp.43 = getv function ? %tmp.42 :Text;
             %tmp.44 = newd 5;
@@ -374,10 +374,10 @@ C_Users_itocchi_dev_widgets_strava_api_bin_gen_006_B2700_00_source_Rez_mcgen_59_
             %tmp.75 = dup %tmp.70;
             %tmp.76 = aputv %tmp.75 %tmp.72 %tmp.74;
             %tmp.40 = newc %tmp.43 (%tmp.76);
-            lputv %rez_cmp_local_text_1145625706.2 %tmp.40;
+            lputv %rez_cmp_local_text_1680639895.2 %tmp.40;
 [ "C:\Users\itocchi\dev\widgets\strava-api\bin\gen\006-B2700-00\source\Rez.mcgen" 65 12 ]
             [ "C_Users_itocchi_dev_widgets_strava_api_bin_gen_006_B2700_00_source_Rez_mcgen_59_75_start" "C_Users_itocchi_dev_widgets_strava_api_bin_gen_006_B2700_00_source_Rez_mcgen_59_75_stop" ]
-            %rez_cmp_local_text_1817008151.3 = local;
+            %rez_cmp_local_text_1005455645.3 = local;
             %tmp.79 = getm $.Toybox.WatchUi;
             %tmp.80 = getv function ? %tmp.79 :Text;
             %tmp.81 = newd 5;
@@ -409,16 +409,16 @@ C_Users_itocchi_dev_widgets_strava_api_bin_gen_006_B2700_00_source_Rez_mcgen_59_
             %tmp.112 = dup %tmp.107;
             %tmp.113 = aputv %tmp.112 %tmp.109 %tmp.111;
             %tmp.77 = newc %tmp.80 (%tmp.113);
-            lputv %rez_cmp_local_text_1817008151.3 %tmp.77;
+            lputv %rez_cmp_local_text_1005455645.3 %tmp.77;
 [ "C:\Users\itocchi\dev\widgets\strava-api\bin\gen\006-B2700-00\source\Rez.mcgen" 67 12 ]
             %tmp.114 = newa Array<WatchUi.Drawable> 3;
             %tmp.116 = lgetv %rez_cmp_local_bitmap_gcm.1;
             %tmp.117 = dup %tmp.114;
             %tmp.118 = aputv %tmp.117 0 %tmp.116;
-            %tmp.120 = lgetv %rez_cmp_local_text_1145625706.2;
+            %tmp.120 = lgetv %rez_cmp_local_text_1680639895.2;
             %tmp.121 = dup %tmp.118;
             %tmp.122 = aputv %tmp.121 1 %tmp.120;
-            %tmp.124 = lgetv %rez_cmp_local_text_1817008151.3;
+            %tmp.124 = lgetv %rez_cmp_local_text_1005455645.3;
             %tmp.125 = dup %tmp.122;
             %tmp.126 = aputv %tmp.125 2 %tmp.124;
             ret %tmp.126;
@@ -469,7 +469,7 @@ C_Users_itocchi_dev_widgets_strava_api_bin_gen_006_B2700_00_source_Rez_mcgen_70_
             invoke %tmp.30 %tmp.31(%tmp.37, %tmp.39);
 [ "C:\Users\itocchi\dev\widgets\strava-api\bin\gen\006-B2700-00\source\Rez.mcgen" 74 12 ]
             [ "C_Users_itocchi_dev_widgets_strava_api_bin_gen_006_B2700_00_source_Rez_mcgen_70_67_start" "C_Users_itocchi_dev_widgets_strava_api_bin_gen_006_B2700_00_source_Rez_mcgen_70_67_stop" ]
-            %rez_cmp_local_text_1040252167.2 = local;
+            %rez_cmp_local_text_1280989677.2 = local;
             %tmp.42 = getm $.Toybox.WatchUi;
             %tmp.43 = getv function ? %tmp.42 :Text;
             %tmp.44 = newd 5;
@@ -501,10 +501,10 @@ C_Users_itocchi_dev_widgets_strava_api_bin_gen_006_B2700_00_source_Rez_mcgen_70_
             %tmp.75 = dup %tmp.70;
             %tmp.76 = aputv %tmp.75 %tmp.72 %tmp.74;
             %tmp.40 = newc %tmp.43 (%tmp.76);
-            lputv %rez_cmp_local_text_1040252167.2 %tmp.40;
+            lputv %rez_cmp_local_text_1280989677.2 %tmp.40;
 [ "C:\Users\itocchi\dev\widgets\strava-api\bin\gen\006-B2700-00\source\Rez.mcgen" 76 12 ]
             [ "C_Users_itocchi_dev_widgets_strava_api_bin_gen_006_B2700_00_source_Rez_mcgen_70_67_start" "C_Users_itocchi_dev_widgets_strava_api_bin_gen_006_B2700_00_source_Rez_mcgen_70_67_stop" ]
-            %rez_cmp_local_text_7037925182.3 = local;
+            %rez_cmp_local_text_6388378641.3 = local;
             %tmp.79 = getm $.Toybox.WatchUi;
             %tmp.80 = getv function ? %tmp.79 :Text;
             %tmp.81 = newd 5;
@@ -536,10 +536,10 @@ C_Users_itocchi_dev_widgets_strava_api_bin_gen_006_B2700_00_source_Rez_mcgen_70_
             %tmp.112 = dup %tmp.107;
             %tmp.113 = aputv %tmp.112 %tmp.109 %tmp.111;
             %tmp.77 = newc %tmp.80 (%tmp.113);
-            lputv %rez_cmp_local_text_7037925182.3 %tmp.77;
+            lputv %rez_cmp_local_text_6388378641.3 %tmp.77;
 [ "C:\Users\itocchi\dev\widgets\strava-api\bin\gen\006-B2700-00\source\Rez.mcgen" 78 12 ]
             [ "C_Users_itocchi_dev_widgets_strava_api_bin_gen_006_B2700_00_source_Rez_mcgen_70_67_start" "C_Users_itocchi_dev_widgets_strava_api_bin_gen_006_B2700_00_source_Rez_mcgen_70_67_stop" ]
-            %rez_cmp_local_text_1264270037.4 = local;
+            %rez_cmp_local_text_8655725221.4 = local;
             %tmp.116 = getm $.Toybox.WatchUi;
             %tmp.117 = getv function ? %tmp.116 :Text;
             %tmp.118 = newd 5;
@@ -571,19 +571,19 @@ C_Users_itocchi_dev_widgets_strava_api_bin_gen_006_B2700_00_source_Rez_mcgen_70_
             %tmp.149 = dup %tmp.144;
             %tmp.150 = aputv %tmp.149 %tmp.146 %tmp.148;
             %tmp.114 = newc %tmp.117 (%tmp.150);
-            lputv %rez_cmp_local_text_1264270037.4 %tmp.114;
+            lputv %rez_cmp_local_text_8655725221.4 %tmp.114;
 [ "C:\Users\itocchi\dev\widgets\strava-api\bin\gen\006-B2700-00\source\Rez.mcgen" 80 12 ]
             %tmp.151 = newa Array<WatchUi.Drawable> 4;
             %tmp.153 = lgetv %rez_cmp_local_bitmap_gcm.1;
             %tmp.154 = dup %tmp.151;
             %tmp.155 = aputv %tmp.154 0 %tmp.153;
-            %tmp.157 = lgetv %rez_cmp_local_text_1040252167.2;
+            %tmp.157 = lgetv %rez_cmp_local_text_1280989677.2;
             %tmp.158 = dup %tmp.155;
             %tmp.159 = aputv %tmp.158 1 %tmp.157;
-            %tmp.161 = lgetv %rez_cmp_local_text_7037925182.3;
+            %tmp.161 = lgetv %rez_cmp_local_text_6388378641.3;
             %tmp.162 = dup %tmp.159;
             %tmp.163 = aputv %tmp.162 2 %tmp.161;
-            %tmp.165 = lgetv %rez_cmp_local_text_1264270037.4;
+            %tmp.165 = lgetv %rez_cmp_local_text_8655725221.4;
             %tmp.166 = dup %tmp.163;
             %tmp.167 = aputv %tmp.166 3 %tmp.165;
             ret %tmp.167;

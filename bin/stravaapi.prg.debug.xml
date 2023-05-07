@@ -5,63 +5,62 @@
         <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaApp.mc" id="2" lineNum="13" parent="globals/StravaApp" pc="268435460" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaApp.mc" id="3" lineNum="20" parent="globals/StravaApp" pc="268435479" symbol="onStart"/>
         <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaApp.mc" id="4" lineNum="28" parent="globals/StravaApp" pc="268435482" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaApp.mc" id="4" lineNum="29" parent="globals/StravaApp" pc="268435486" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaApp.mc" id="4" lineNum="31" parent="globals/StravaApp" pc="268435504" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaApp.mc" id="5" lineNum="15" parent="globals/StravaApp" pc="268435545" symbol="initialize"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaApp.mc" id="5" lineNum="16" parent="globals/StravaApp" pc="268435547" symbol="initialize"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaApp.mc" id="6" lineNum="24" parent="globals/StravaApp" pc="268435566" symbol="onStop"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="7" lineNum="7" parent="globals/Rez" pc="268435569" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="8" lineNum="13" parent="globals/StravaView" pc="268435593" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="9" lineNum="61" parent="globals/StravaView" pc="268435612" symbol="updateModel"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="11" lineNum="74" parent="globals/StravaView" pc="268435615" symbol="onLayout"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="11" lineNum="75" parent="globals/StravaView" pc="268435617" symbol="onLayout"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="12" lineNum="19" parent="globals/StravaView" pc="268435659" symbol="initialize"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="12" lineNum="20" parent="globals/StravaView" pc="268435663" symbol="initialize"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="12" lineNum="22" parent="globals/StravaView" pc="268435681" symbol="initialize"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="12" lineNum="23" parent="globals/StravaView" pc="268435706" symbol="initialize"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="12" lineNum="24" parent="globals/StravaView" pc="268435717" symbol="initialize"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="12" lineNum="30" parent="globals/StravaView" pc="268435783" symbol="initialize"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="12" lineNum="37" parent="globals/StravaView" pc="268435852" symbol="initialize"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="12" lineNum="43" parent="globals/StravaView" pc="268435918" symbol="initialize"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="13" lineNum="55" parent="globals/StravaView" pc="268435985" symbol="convert"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="13" lineNum="56" parent="globals/StravaView" pc="268435989" symbol="convert"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="13" lineNum="57" parent="globals/StravaView" pc="268435996" symbol="convert"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="15" lineNum="85" parent="globals/StravaView" pc="268436044" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="15" lineNum="89" parent="globals/StravaView" pc="268436046" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="16" lineNum="12" parent="globals/Rez/Drawables/header" pc="268436067" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="17" lineNum="14" parent="globals/Rez/Drawables/header" pc="268436086" symbol="initialize"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="17" lineNum="15" parent="globals/Rez/Drawables/header" pc="268436088" symbol="initialize"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="18" lineNum="18" parent="globals/Rez/Drawables/header" pc="268436113" symbol="draw"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="18" lineNum="19" parent="globals/Rez/Drawables/header" pc="268436115" symbol="draw"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="18" lineNum="20" parent="globals/Rez/Drawables/header" pc="268436120" symbol="draw"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="18" lineNum="21" parent="globals/Rez/Drawables/header" pc="268436132" symbol="draw"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="18" lineNum="25" parent="globals/Rez/Drawables/header" pc="268436139" symbol="draw"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="18" lineNum="26" parent="globals/Rez/Drawables/header" pc="268436161" symbol="draw"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="18" lineNum="27" parent="globals/Rez/Drawables/header" pc="268436193" symbol="draw"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="18" lineNum="29" parent="globals/Rez/Drawables/header" pc="268436215" symbol="draw"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="18" lineNum="30" parent="globals/Rez/Drawables/header" pc="268436237" symbol="draw"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="19" lineNum="70" parent="globals/Rez/Layouts" pc="268436270" symbol="Gcm"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="19" lineNum="71" parent="globals/Rez/Layouts" pc="268436282" symbol="Gcm"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="19" lineNum="72" parent="globals/Rez/Layouts" pc="268436387" symbol="Gcm"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="19" lineNum="74" parent="globals/Rez/Layouts" pc="268436427" symbol="Gcm"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="19" lineNum="76" parent="globals/Rez/Layouts" pc="268436545" symbol="Gcm"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="19" lineNum="78" parent="globals/Rez/Layouts" pc="268436663" symbol="Gcm"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="19" lineNum="80" parent="globals/Rez/Layouts" pc="268436781" symbol="Gcm"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="20" lineNum="53" parent="globals/Rez/Layouts" pc="268436828" symbol="ErrorLayout"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="20" lineNum="54" parent="globals/Rez/Layouts" pc="268436840" symbol="ErrorLayout"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="20" lineNum="56" parent="globals/Rez/Layouts" pc="268436975" symbol="ErrorLayout"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="21" lineNum="42" parent="globals/Rez/Layouts" pc="268436992" symbol="Summary"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="21" lineNum="43" parent="globals/Rez/Layouts" pc="268437004" symbol="Summary"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="21" lineNum="44" parent="globals/Rez/Layouts" pc="268437044" symbol="Summary"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="21" lineNum="45" parent="globals/Rez/Layouts" pc="268437057" symbol="Summary"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="21" lineNum="48" parent="globals/Rez/Layouts" pc="268437073" symbol="Summary"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="21" lineNum="50" parent="globals/Rez/Layouts" pc="268437217" symbol="Summary"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="22" lineNum="59" parent="globals/Rez/Layouts" pc="268437244" symbol="LoginLayout"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="22" lineNum="60" parent="globals/Rez/Layouts" pc="268437256" symbol="LoginLayout"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="22" lineNum="61" parent="globals/Rez/Layouts" pc="268437361" symbol="LoginLayout"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="22" lineNum="63" parent="globals/Rez/Layouts" pc="268437401" symbol="LoginLayout"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="22" lineNum="65" parent="globals/Rez/Layouts" pc="268437519" symbol="LoginLayout"/>
-        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="22" lineNum="67" parent="globals/Rez/Layouts" pc="268437637" symbol="LoginLayout"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaApp.mc" id="4" lineNum="30" parent="globals/StravaApp" pc="268435484" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaApp.mc" id="5" lineNum="15" parent="globals/StravaApp" pc="268435525" symbol="initialize"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaApp.mc" id="5" lineNum="16" parent="globals/StravaApp" pc="268435527" symbol="initialize"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaApp.mc" id="6" lineNum="24" parent="globals/StravaApp" pc="268435546" symbol="onStop"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="7" lineNum="7" parent="globals/Rez" pc="268435549" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="8" lineNum="13" parent="globals/StravaView" pc="268435573" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="9" lineNum="61" parent="globals/StravaView" pc="268435592" symbol="updateModel"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="11" lineNum="66" parent="globals/StravaView" pc="268435595" symbol="onLayout"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="11" lineNum="67" parent="globals/StravaView" pc="268435597" symbol="onLayout"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="12" lineNum="19" parent="globals/StravaView" pc="268435639" symbol="initialize"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="12" lineNum="20" parent="globals/StravaView" pc="268435643" symbol="initialize"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="12" lineNum="22" parent="globals/StravaView" pc="268435661" symbol="initialize"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="12" lineNum="23" parent="globals/StravaView" pc="268435686" symbol="initialize"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="12" lineNum="24" parent="globals/StravaView" pc="268435697" symbol="initialize"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="12" lineNum="30" parent="globals/StravaView" pc="268435763" symbol="initialize"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="12" lineNum="37" parent="globals/StravaView" pc="268435832" symbol="initialize"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="12" lineNum="43" parent="globals/StravaView" pc="268435898" symbol="initialize"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="13" lineNum="55" parent="globals/StravaView" pc="268435965" symbol="convert"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="13" lineNum="56" parent="globals/StravaView" pc="268435969" symbol="convert"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="13" lineNum="57" parent="globals/StravaView" pc="268435976" symbol="convert"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="15" lineNum="77" parent="globals/StravaView" pc="268436024" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\source\\StravaView.mc" id="15" lineNum="81" parent="globals/StravaView" pc="268436026" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="16" lineNum="12" parent="globals/Rez/Drawables/header" pc="268436047" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="17" lineNum="14" parent="globals/Rez/Drawables/header" pc="268436066" symbol="initialize"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="17" lineNum="15" parent="globals/Rez/Drawables/header" pc="268436068" symbol="initialize"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="18" lineNum="18" parent="globals/Rez/Drawables/header" pc="268436093" symbol="draw"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="18" lineNum="19" parent="globals/Rez/Drawables/header" pc="268436095" symbol="draw"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="18" lineNum="20" parent="globals/Rez/Drawables/header" pc="268436100" symbol="draw"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="18" lineNum="21" parent="globals/Rez/Drawables/header" pc="268436112" symbol="draw"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="18" lineNum="25" parent="globals/Rez/Drawables/header" pc="268436119" symbol="draw"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="18" lineNum="26" parent="globals/Rez/Drawables/header" pc="268436141" symbol="draw"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="18" lineNum="27" parent="globals/Rez/Drawables/header" pc="268436173" symbol="draw"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="18" lineNum="29" parent="globals/Rez/Drawables/header" pc="268436195" symbol="draw"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="18" lineNum="30" parent="globals/Rez/Drawables/header" pc="268436217" symbol="draw"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="19" lineNum="70" parent="globals/Rez/Layouts" pc="268436250" symbol="Gcm"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="19" lineNum="71" parent="globals/Rez/Layouts" pc="268436262" symbol="Gcm"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="19" lineNum="72" parent="globals/Rez/Layouts" pc="268436367" symbol="Gcm"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="19" lineNum="74" parent="globals/Rez/Layouts" pc="268436407" symbol="Gcm"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="19" lineNum="76" parent="globals/Rez/Layouts" pc="268436525" symbol="Gcm"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="19" lineNum="78" parent="globals/Rez/Layouts" pc="268436643" symbol="Gcm"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="19" lineNum="80" parent="globals/Rez/Layouts" pc="268436761" symbol="Gcm"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="20" lineNum="53" parent="globals/Rez/Layouts" pc="268436808" symbol="ErrorLayout"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="20" lineNum="54" parent="globals/Rez/Layouts" pc="268436820" symbol="ErrorLayout"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="20" lineNum="56" parent="globals/Rez/Layouts" pc="268436955" symbol="ErrorLayout"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="21" lineNum="42" parent="globals/Rez/Layouts" pc="268436972" symbol="Summary"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="21" lineNum="43" parent="globals/Rez/Layouts" pc="268436984" symbol="Summary"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="21" lineNum="44" parent="globals/Rez/Layouts" pc="268437024" symbol="Summary"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="21" lineNum="45" parent="globals/Rez/Layouts" pc="268437037" symbol="Summary"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="21" lineNum="48" parent="globals/Rez/Layouts" pc="268437053" symbol="Summary"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="21" lineNum="50" parent="globals/Rez/Layouts" pc="268437197" symbol="Summary"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="22" lineNum="59" parent="globals/Rez/Layouts" pc="268437224" symbol="LoginLayout"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="22" lineNum="60" parent="globals/Rez/Layouts" pc="268437236" symbol="LoginLayout"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="22" lineNum="61" parent="globals/Rez/Layouts" pc="268437341" symbol="LoginLayout"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="22" lineNum="63" parent="globals/Rez/Layouts" pc="268437381" symbol="LoginLayout"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="22" lineNum="65" parent="globals/Rez/Layouts" pc="268437499" symbol="LoginLayout"/>
+        <entry filename="C:\\Users\\itocchi\\dev\\widgets\\strava-api\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="22" lineNum="67" parent="globals/Rez/Layouts" pc="268437617" symbol="LoginLayout"/>
     </pcToLineNum>
     <symbolTable>
         <entry field="true" id="11" symbol="ServerToken"/>
@@ -138,28 +137,27 @@
         <entry id="13" object="true" symbol="StravaModel"/>
     </symbolTable>
     <localVars>
-        <entry endPc="268435544" name="athleteId" stackId="1" startPc="268435486"/>
-        <entry arg="true" endPc="268435658" name="dc" stackId="1" startPc="268435615"/>
-        <entry endPc="268435983" name="type" stackId="1" startPc="268435663"/>
-        <entry arg="true" endPc="268436043" name="model" stackId="1" startPc="268435985"/>
-        <entry arg="true" endPc="268436043" name="name" stackId="2" startPc="268435985"/>
-        <entry endPc="268436043" name="value" stackId="3" startPc="268435989"/>
-        <entry arg="true" endPc="268436066" name="dc" stackId="1" startPc="268436044"/>
-        <entry arg="true" endPc="268436269" name="dc" stackId="1" startPc="268436113"/>
-        <entry arg="true" endPc="268436827" name="dc" stackId="1" startPc="268436270"/>
-        <entry endPc="268436827" name="rez_cmp_local_bitmap_gcm" stackId="2" startPc="268436282"/>
-        <entry endPc="268436827" name="rez_cmp_local_text_1040252167" stackId="3" startPc="268436282"/>
-        <entry endPc="268436827" name="rez_cmp_local_text_7037925182" stackId="4" startPc="268436282"/>
-        <entry endPc="268436827" name="rez_cmp_local_text_1264270037" stackId="5" startPc="268436282"/>
-        <entry arg="true" endPc="268436991" name="dc" stackId="1" startPc="268436828"/>
-        <entry endPc="268436991" name="rez_cmp_local_text_Message" stackId="2" startPc="268436840"/>
-        <entry arg="true" endPc="268437243" name="dc" stackId="1" startPc="268436992"/>
-        <entry endPc="268437243" name="rez_cmp_local_custom_drawable_header" stackId="2" startPc="268437004"/>
-        <entry endPc="268437243" name="rez_cmp_local_text_Title" stackId="3" startPc="268437004"/>
-        <entry arg="true" endPc="268437673" name="dc" stackId="1" startPc="268437244"/>
-        <entry endPc="268437673" name="rez_cmp_local_bitmap_gcm" stackId="2" startPc="268437256"/>
-        <entry endPc="268437673" name="rez_cmp_local_text_1145625706" stackId="3" startPc="268437256"/>
-        <entry endPc="268437673" name="rez_cmp_local_text_1817008151" stackId="4" startPc="268437256"/>
+        <entry arg="true" endPc="268435638" name="dc" stackId="1" startPc="268435595"/>
+        <entry endPc="268435963" name="type" stackId="1" startPc="268435643"/>
+        <entry arg="true" endPc="268436023" name="model" stackId="1" startPc="268435965"/>
+        <entry arg="true" endPc="268436023" name="name" stackId="2" startPc="268435965"/>
+        <entry endPc="268436023" name="value" stackId="3" startPc="268435969"/>
+        <entry arg="true" endPc="268436046" name="dc" stackId="1" startPc="268436024"/>
+        <entry arg="true" endPc="268436249" name="dc" stackId="1" startPc="268436093"/>
+        <entry arg="true" endPc="268436807" name="dc" stackId="1" startPc="268436250"/>
+        <entry endPc="268436807" name="rez_cmp_local_bitmap_gcm" stackId="2" startPc="268436262"/>
+        <entry endPc="268436807" name="rez_cmp_local_text_1280989677" stackId="3" startPc="268436262"/>
+        <entry endPc="268436807" name="rez_cmp_local_text_6388378641" stackId="4" startPc="268436262"/>
+        <entry endPc="268436807" name="rez_cmp_local_text_8655725221" stackId="5" startPc="268436262"/>
+        <entry arg="true" endPc="268436971" name="dc" stackId="1" startPc="268436808"/>
+        <entry endPc="268436971" name="rez_cmp_local_text_Message" stackId="2" startPc="268436820"/>
+        <entry arg="true" endPc="268437223" name="dc" stackId="1" startPc="268436972"/>
+        <entry endPc="268437223" name="rez_cmp_local_custom_drawable_header" stackId="2" startPc="268436984"/>
+        <entry endPc="268437223" name="rez_cmp_local_text_Title" stackId="3" startPc="268436984"/>
+        <entry arg="true" endPc="268437653" name="dc" stackId="1" startPc="268437224"/>
+        <entry endPc="268437653" name="rez_cmp_local_bitmap_gcm" stackId="2" startPc="268437236"/>
+        <entry endPc="268437653" name="rez_cmp_local_text_1680639895" stackId="3" startPc="268437236"/>
+        <entry endPc="268437653" name="rez_cmp_local_text_1005455645" stackId="4" startPc="268437236"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -205,37 +203,37 @@
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435544" name="getInitialView" parent="StravaApp" startPc="268435482">
+        <functionEntry accessMode="public" endPc="268435524" name="getInitialView" parent="StravaApp" startPc="268435482">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435565" name="initialize" parent="StravaApp" startPc="268435545">
+        <functionEntry accessMode="public" endPc="268435545" name="initialize" parent="StravaApp" startPc="268435525">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435568" name="onStop" parent="StravaApp" startPc="268435566">
+        <functionEntry accessMode="public" endPc="268435548" name="onStop" parent="StravaApp" startPc="268435546">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435592" name="&lt;init&gt;" parent="Rez" startPc="268435569">
+        <functionEntry accessMode="public" endPc="268435572" name="&lt;init&gt;" parent="Rez" startPc="268435549">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435611" name="&lt;init&gt;" parent="StravaView" startPc="268435593">
+        <functionEntry accessMode="public" endPc="268435591" name="&lt;init&gt;" parent="StravaView" startPc="268435573">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435614" name="updateModel" parent="StravaView" startPc="268435612">
+        <functionEntry accessMode="public" endPc="268435594" name="updateModel" parent="StravaView" startPc="268435592">
             <param id="model"/>
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onShow" parent="StravaView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435658" name="onLayout" parent="StravaView" startPc="268435615">
+        <functionEntry accessMode="public" endPc="268435638" name="onLayout" parent="StravaView" startPc="268435595">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435984" name="initialize" parent="StravaView" startPc="268435659">
+        <functionEntry accessMode="public" endPc="268435964" name="initialize" parent="StravaView" startPc="268435639">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268436043" name="convert" parent="StravaView" startPc="268435985">
+        <functionEntry accessMode="protected" endPc="268436023" name="convert" parent="StravaView" startPc="268435965">
             <param id="model"/>
             <param id="name"/>
             <documentation/>
@@ -243,7 +241,7 @@
         <functionEntry accessMode="public" name="onHide" parent="StravaView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436066" name="onUpdate" parent="StravaView" startPc="268436044">
+        <functionEntry accessMode="public" endPc="268436046" name="onUpdate" parent="StravaView" startPc="268436024">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
@@ -265,29 +263,29 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436085" name="&lt;init&gt;" parent="header" startPc="268436067">
+        <functionEntry accessMode="public" endPc="268436065" name="&lt;init&gt;" parent="header" startPc="268436047">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436112" name="initialize" parent="header" startPc="268436086">
+        <functionEntry accessMode="public" endPc="268436092" name="initialize" parent="header" startPc="268436066">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436269" name="draw" parent="header" startPc="268436113">
+        <functionEntry accessMode="public" endPc="268436249" name="draw" parent="header" startPc="268436093">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436827" name="Gcm" parent="Layouts" startPc="268436270">
+        <functionEntry accessMode="public" endPc="268436807" name="Gcm" parent="Layouts" startPc="268436250">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436991" name="ErrorLayout" parent="Layouts" startPc="268436828">
+        <functionEntry accessMode="public" endPc="268436971" name="ErrorLayout" parent="Layouts" startPc="268436808">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437243" name="Summary" parent="Layouts" startPc="268436992">
+        <functionEntry accessMode="public" endPc="268437223" name="Summary" parent="Layouts" startPc="268436972">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437673" name="LoginLayout" parent="Layouts" startPc="268437244">
+        <functionEntry accessMode="public" endPc="268437653" name="LoginLayout" parent="Layouts" startPc="268437224">
             <param id="dc"/>
             <documentation/>
         </functionEntry>

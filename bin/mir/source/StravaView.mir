@@ -162,10 +162,10 @@ C_Users_itocchi_dev_widgets_strava_api_source_StravaView_mc_55_41_stop:
     [ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaView.mc"; @line = 61; ]
     function updateModel(model) {
     }
-    [ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaView.mc"; @line = 74; ]
+    [ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaView.mc"; @line = 66; ]
     function onLayout(dc) {
-C_Users_itocchi_dev_widgets_strava_api_source_StravaView_mc_74_26_start:
-[ "C:\Users\itocchi\dev\widgets\strava-api\source\StravaView.mc" 75 8 ]
+C_Users_itocchi_dev_widgets_strava_api_source_StravaView_mc_66_26_start:
+[ "C:\Users\itocchi\dev\widgets\strava-api\source\StravaView.mc" 67 8 ]
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :setLayout;
         %tmp.4 = getv ? :Rez;
@@ -174,22 +174,22 @@ C_Users_itocchi_dev_widgets_strava_api_source_StravaView_mc_74_26_start:
         %tmp.8 = lgetv %dc;
         %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
         invoke %tmp.1 %tmp.2(%tmp.9);
-C_Users_itocchi_dev_widgets_strava_api_source_StravaView_mc_74_26_stop:
+C_Users_itocchi_dev_widgets_strava_api_source_StravaView_mc_66_26_stop:
     }
-    [ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaView.mc"; @line = 81; ]
+    [ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaView.mc"; @line = 73; ]
     function onShow() {
     }
-    [ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaView.mc"; @line = 85; ]
+    [ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaView.mc"; @line = 77; ]
     function onUpdate(dc) {
-C_Users_itocchi_dev_widgets_strava_api_source_StravaView_mc_85_26_start:
-[ "C:\Users\itocchi\dev\widgets\strava-api\source\StravaView.mc" 89 8 ]
+C_Users_itocchi_dev_widgets_strava_api_source_StravaView_mc_77_26_start:
+[ "C:\Users\itocchi\dev\widgets\strava-api\source\StravaView.mc" 81 8 ]
         %tmp.2 = getv ? :View;
         %tmp.3 = getv function %tmp.2 :onUpdate;
         %tmp.5 = lgetv %dc;
         invoke %tmp.2 %tmp.3(%tmp.5);
-C_Users_itocchi_dev_widgets_strava_api_source_StravaView_mc_85_26_stop:
+C_Users_itocchi_dev_widgets_strava_api_source_StravaView_mc_77_26_stop:
     }
-    [ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaView.mc"; @line = 95; ]
+    [ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaView.mc"; @line = 87; ]
     function onHide() {
     }
 }

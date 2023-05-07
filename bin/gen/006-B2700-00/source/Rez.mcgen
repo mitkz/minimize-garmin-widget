@@ -60,24 +60,24 @@ module Rez {
             var rez_cmp_local_bitmap_gcm = new WatchUi.Bitmap({:identifier=>"gcm", :rezId=>$.Rez.Drawables.gcm, :locX=>WatchUi.LAYOUT_HALIGN_CENTER, :locY=>0});
             rez_cmp_local_bitmap_gcm.setLocation(((240 - rez_cmp_local_bitmap_gcm.width) * 0.5), rez_cmp_local_bitmap_gcm.locY);
 
-            var rez_cmp_local_text_1145625706 = new WatchUi.Text({:locX=>(240 * 0.5), :locY=>65, :text=>$.Rez.Strings.goToPhone, :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_SMALL});
+            var rez_cmp_local_text_1680639895 = new WatchUi.Text({:locX=>(240 * 0.5), :locY=>65, :text=>$.Rez.Strings.goToPhone, :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_SMALL});
 
-            var rez_cmp_local_text_1817008151 = new WatchUi.Text({:locX=>(240 * 0.5), :locY=>85, :text=>$.Rez.Strings.connectString3, :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_SMALL});
+            var rez_cmp_local_text_1005455645 = new WatchUi.Text({:locX=>(240 * 0.5), :locY=>85, :text=>$.Rez.Strings.connectString3, :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_SMALL});
 
-            return [rez_cmp_local_bitmap_gcm, rez_cmp_local_text_1145625706, rez_cmp_local_text_1817008151] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_bitmap_gcm, rez_cmp_local_text_1680639895, rez_cmp_local_text_1005455645] as Array<WatchUi.Drawable>;
         }
 
         function Gcm(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
             var rez_cmp_local_bitmap_gcm = new WatchUi.Bitmap({:identifier=>"gcm", :rezId=>$.Rez.Drawables.gcm, :locX=>WatchUi.LAYOUT_HALIGN_CENTER, :locY=>0});
             rez_cmp_local_bitmap_gcm.setLocation(((240 - rez_cmp_local_bitmap_gcm.width) * 0.5), rez_cmp_local_bitmap_gcm.locY);
 
-            var rez_cmp_local_text_1040252167 = new WatchUi.Text({:locX=>(240 * 0.5), :locY=>65, :text=>$.Rez.Strings.connectString1, :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_SMALL});
+            var rez_cmp_local_text_1280989677 = new WatchUi.Text({:locX=>(240 * 0.5), :locY=>65, :text=>$.Rez.Strings.connectString1, :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_SMALL});
 
-            var rez_cmp_local_text_7037925182 = new WatchUi.Text({:locX=>(240 * 0.5), :locY=>85, :text=>$.Rez.Strings.connectString2, :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_SMALL});
+            var rez_cmp_local_text_6388378641 = new WatchUi.Text({:locX=>(240 * 0.5), :locY=>85, :text=>$.Rez.Strings.connectString2, :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_SMALL});
 
-            var rez_cmp_local_text_1264270037 = new WatchUi.Text({:locX=>(240 * 0.5), :locY=>105, :text=>$.Rez.Strings.connectString3, :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_SMALL});
+            var rez_cmp_local_text_8655725221 = new WatchUi.Text({:locX=>(240 * 0.5), :locY=>105, :text=>$.Rez.Strings.connectString3, :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_SMALL});
 
-            return [rez_cmp_local_bitmap_gcm, rez_cmp_local_text_1040252167, rez_cmp_local_text_7037925182, rez_cmp_local_text_1264270037] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_bitmap_gcm, rez_cmp_local_text_1280989677, rez_cmp_local_text_6388378641, rez_cmp_local_text_8655725221] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
