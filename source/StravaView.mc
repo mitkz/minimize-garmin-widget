@@ -11,19 +11,10 @@ using Toybox.Lang as Lang;
 
 // Main view for the application
 class StravaView extends Ui.View {
-    var _transaction;
-    var _divisors;
-    var _labels;
 
     // Constructor
     function initialize() {
         View.initialize();
-    }
-
-
-    // Function called when the information is returned by the transaction
-    function updateModel(model) {
-
     }
 
     // Load your resources here
