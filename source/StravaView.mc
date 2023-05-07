@@ -59,15 +59,7 @@ class StravaView extends Ui.View {
 
     // Function called when the information is returned by the transaction
     function updateModel(model) {
-        // var view = View.findDrawableById("swim");
-        // view.setText( convert( model, :swim ) );
-        // view = View.findDrawableById("bike");
-        // view.setText( convert( model, :bike ) );
-        // view = View.findDrawableById("run");
-        // view.setText( convert( model, :run) );
-        // view = View.findDrawableById("total");
-        // view.setText( convert( model, :total) );
-        // Ui.requestUpdate();
+
     }
 
     // Load your resources here
