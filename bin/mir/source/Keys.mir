@@ -1,0 +1,9 @@
+[ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\Keys.mc"; @line = 6; @position = 4; ]
+var ClientId = "YOUR ID";
+[ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\Keys.mc"; @line = 7; @position = 4; ]
+var ClientSecret = "YOUR SECRET";
+[ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\Keys.mc"; @line = 8; @position = 4; ]
+var ServerToken = "YOUR TOKEN";
+[ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\Keys.mc"; @line = 6; ]
+<init> {
+}

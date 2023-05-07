@@ -1,0 +1,54 @@
+[ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaApp.mc"; @line = 6; ]
+using Toybox.Application as :App;
+[ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaApp.mc"; @line = 8; @position = 6; ]
+const ApiUrl = "https://www.strava.com/api/v3/";
+[ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaApp.mc"; @line = 9; @position = 6; ]
+const RedirectUri = "https://localhost";
+[ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaApp.mc"; @line = 13; ]
+class StravaApp extends App.AppBase{
+    [ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaApp.mc"; @line = 13; ]
+    <init> {
+    }
+    [ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaApp.mc"; @line = 13; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaApp.mc"; @line = 15; ]
+    function initialize() as Void {
+C_Users_itocchi_dev_widgets_strava_api_source_StravaApp_mc_15_26_start:
+[ "C:\Users\itocchi\dev\widgets\strava-api\source\StravaApp.mc" 16 8 ]
+        %tmp.2 = getv ? :AppBase;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Users_itocchi_dev_widgets_strava_api_source_StravaApp_mc_15_26_stop:
+    }
+    [ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaApp.mc"; @line = 20; ]
+    function onStart(state) {
+    }
+    [ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaApp.mc"; @line = 24; ]
+    function onStop(state) {
+    }
+    [ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaApp.mc"; @line = 28; ]
+    function getInitialView() {
+C_Users_itocchi_dev_widgets_strava_api_source_StravaApp_mc_28_30_start:
+[ "C:\Users\itocchi\dev\widgets\strava-api\source\StravaApp.mc" 29 8 ]
+        [ "C_Users_itocchi_dev_widgets_strava_api_source_StravaApp_mc_28_30_start" "C_Users_itocchi_dev_widgets_strava_api_source_StravaApp_mc_28_30_stop" ]
+        %athleteId.1 = local;
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :getProperty;
+        %tmp.3 = "athlete_id";
+        %tmp.4 = invoke %tmp.1 %tmp.2(%tmp.3);
+        lputv %athleteId.1 %tmp.4;
+[ "C:\Users\itocchi\dev\widgets\strava-api\source\StravaApp.mc" 31 12 ]
+        %tmp.5 = newa 1;
+        %tmp.9 = getv ? :StravaView;
+        %tmp.6 = newc %tmp.9 ();
+        %tmp.10 = dup %tmp.5;
+        %tmp.11 = aputv %tmp.10 0 %tmp.6;
+        ret %tmp.11;
+C_Users_itocchi_dev_widgets_strava_api_source_StravaApp_mc_28_30_stop:
+    }
+}
+[ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaApp.mc"; @line = 6; ]
+<init> {
+}

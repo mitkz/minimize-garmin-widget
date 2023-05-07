@@ -1,0 +1,163 @@
+[ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaSummaryTransation.mc"; @line = 7; ]
+using Toybox.Communications;
+[ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaSummaryTransation.mc"; @line = 8; ]
+using Toybox.Application;
+[ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaSummaryTransation.mc"; @line = 9; ]
+using Toybox.System;
+[ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaSummaryTransation.mc"; @line = 10; ]
+using Toybox.WatchUi;
+[ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaSummaryTransation.mc"; @line = 13; ]
+class StravaSummaryDelegate extends TransactionDelegate{
+    [ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaSummaryTransation.mc"; @line = 13; ]
+    <init> {
+    }
+    [ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaSummaryTransation.mc"; @line = 13; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaSummaryTransation.mc"; @line = 14; @position = 15; ]
+    protected
+    var _view;
+    [ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaSummaryTransation.mc"; @line = 17; ]
+    function initialize(view) as Void {
+C_Users_itocchi_dev_widgets_strava_api_source_StravaSummaryTransation_mc_17_30_start:
+[ "C:\Users\itocchi\dev\widgets\strava-api\source\StravaSummaryTransation.mc" 18 8 ]
+        %tmp.2 = getv ? :TransactionDelegate;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "C:\Users\itocchi\dev\widgets\strava-api\source\StravaSummaryTransation.mc" 19 8 ]
+        %tmp.5 = lgetv %view;
+        putv self :_view %tmp.5;
+C_Users_itocchi_dev_widgets_strava_api_source_StravaSummaryTransation_mc_17_30_stop:
+    }
+    [ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaSummaryTransation.mc"; @line = 23; ]
+    function handleError(code) {
+C_Users_itocchi_dev_widgets_strava_api_source_StravaSummaryTransation_mc_23_31_start:
+[ "C:\Users\itocchi\dev\widgets\strava-api\source\StravaSummaryTransation.mc" 24 8 ]
+        [ "C_Users_itocchi_dev_widgets_strava_api_source_StravaSummaryTransation_mc_23_31_start" "C_Users_itocchi_dev_widgets_strava_api_source_StravaSummaryTransation_mc_23_31_stop" ]
+        %msg.1 = local;
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.2 = getv function %tmp.1 :loadResource;
+        %tmp.4 = getv ? :Rez;
+        %tmp.5 = getv %tmp.4 :Strings;
+        %tmp.6 = getv %tmp.5 :error;
+        %tmp.7 = invoke %tmp.1 %tmp.2(%tmp.6);
+        lputv %msg.1 %tmp.7;
+[ "C:\Users\itocchi\dev\widgets\strava-api\source\StravaSummaryTransation.mc" 25 8 ]
+        %tmp.8 = lgetv %msg.1;
+        %tmp.10 = lgetv %code;
+        %tmp.11 = add %tmp.8 %tmp.10;
+        lputv %msg.1 %tmp.11;
+[ "C:\Users\itocchi\dev\widgets\strava-api\source\StravaSummaryTransation.mc" 26 8 ]
+        %tmp.12 = getm $.Toybox.WatchUi;
+        %tmp.13 = getv function %tmp.12 :switchToView;
+        %tmp.17 = getv ? :ErrorView;
+        %tmp.19 = lgetv %msg.1;
+        %tmp.14 = newc %tmp.17 (%tmp.19);
+        %tmp.20 = null;
+        %tmp.21 = getm $.Toybox.WatchUi;
+        %tmp.22 = getv %tmp.21 :SLIDE_IMMEDIATE;
+        invoke %tmp.12 %tmp.13(%tmp.14, %tmp.20, %tmp.22);
+C_Users_itocchi_dev_widgets_strava_api_source_StravaSummaryTransation_mc_23_31_stop:
+    }
+    [ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaSummaryTransation.mc"; @line = 30; ]
+    function handleResponse(data) {
+C_Users_itocchi_dev_widgets_strava_api_source_StravaSummaryTransation_mc_30_36_start:
+[ "C:\Users\itocchi\dev\widgets\strava-api\source\StravaSummaryTransation.mc" 32 8 ]
+        [ "C_Users_itocchi_dev_widgets_strava_api_source_StravaSummaryTransation_mc_30_36_start" "C_Users_itocchi_dev_widgets_strava_api_source_StravaSummaryTransation_mc_30_36_stop" ]
+        %result.1 = local;
+        %tmp.4 = getv ? :StravaModel;
+        %tmp.1 = newc %tmp.4 ();
+        lputv %result.1 %tmp.1;
+[ "C:\Users\itocchi\dev\widgets\strava-api\source\StravaSummaryTransation.mc" 33 8 ]
+        %tmp.5 = lgetv %result.1;
+        %tmp.7 = lgetv %data;
+        %tmp.8 = "recent_swim_totals";
+        %tmp.9 = agetv %tmp.7 %tmp.8;
+        %tmp.10 = "distance";
+        %tmp.11 = agetv %tmp.9 %tmp.10;
+        %tmp.12 = getv function %tmp.11 :toNumber;
+        %tmp.13 = invoke %tmp.11 %tmp.12();
+        putv %tmp.5 :swim %tmp.13;
+[ "C:\Users\itocchi\dev\widgets\strava-api\source\StravaSummaryTransation.mc" 34 8 ]
+        %tmp.14 = lgetv %result.1;
+        %tmp.16 = lgetv %data;
+        %tmp.17 = "recent_ride_totals";
+        %tmp.18 = agetv %tmp.16 %tmp.17;
+        %tmp.19 = "distance";
+        %tmp.20 = agetv %tmp.18 %tmp.19;
+        %tmp.21 = getv function %tmp.20 :toNumber;
+        %tmp.22 = invoke %tmp.20 %tmp.21();
+        putv %tmp.14 :bike %tmp.22;
+[ "C:\Users\itocchi\dev\widgets\strava-api\source\StravaSummaryTransation.mc" 35 8 ]
+        %tmp.23 = lgetv %result.1;
+        %tmp.25 = lgetv %data;
+        %tmp.26 = "recent_run_totals";
+        %tmp.27 = agetv %tmp.25 %tmp.26;
+        %tmp.28 = "distance";
+        %tmp.29 = agetv %tmp.27 %tmp.28;
+        %tmp.30 = getv function %tmp.29 :toNumber;
+        %tmp.31 = invoke %tmp.29 %tmp.30();
+        putv %tmp.23 :run %tmp.31;
+[ "C:\Users\itocchi\dev\widgets\strava-api\source\StravaSummaryTransation.mc" 36 8 ]
+        %tmp.32 = lgetv %result.1;
+        %tmp.33 = lgetv %result.1;
+        %tmp.34 = getv %tmp.33 :swim;
+        %tmp.35 = lgetv %result.1;
+        %tmp.36 = getv %tmp.35 :bike;
+        %tmp.37 = add %tmp.34 %tmp.36;
+        %tmp.38 = lgetv %result.1;
+        %tmp.39 = getv %tmp.38 :run;
+        %tmp.40 = add %tmp.37 %tmp.39;
+        putv %tmp.32 :total %tmp.40;
+[ "C:\Users\itocchi\dev\widgets\strava-api\source\StravaSummaryTransation.mc" 38 8 ]
+        %tmp.42 = getv ? :_view;
+        %tmp.43 = getv function %tmp.42 :updateModel;
+        %tmp.45 = lgetv %result.1;
+        invoke %tmp.42 %tmp.43(%tmp.45);
+[ "C:\Users\itocchi\dev\widgets\strava-api\source\StravaSummaryTransation.mc" 39 8 ]
+        %tmp.46 = null;
+        putv self :_view %tmp.46;
+C_Users_itocchi_dev_widgets_strava_api_source_StravaSummaryTransation_mc_30_36_stop:
+    }
+}
+[ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaSummaryTransation.mc"; @line = 44; ]
+class StravaSummaryTransaction extends Transaction{
+    [ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaSummaryTransation.mc"; @line = 44; ]
+    <init> {
+    }
+    [ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaSummaryTransation.mc"; @line = 44; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaSummaryTransation.mc"; @line = 47; ]
+    function initialize(delegate) as Void {
+C_Users_itocchi_dev_widgets_strava_api_source_StravaSummaryTransation_mc_47_34_start:
+[ "C:\Users\itocchi\dev\widgets\strava-api\source\StravaSummaryTransation.mc" 49 8 ]
+        %tmp.2 = getv ? :Transaction;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.5 = lgetv %delegate;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+[ "C:\Users\itocchi\dev\widgets\strava-api\source\StravaSummaryTransation.mc" 51 8 ]
+        [ "C_Users_itocchi_dev_widgets_strava_api_source_StravaSummaryTransation_mc_47_34_start" "C_Users_itocchi_dev_widgets_strava_api_source_StravaSummaryTransation_mc_47_34_stop" ]
+        %athleteId.1 = local;
+        %tmp.6 = getm $.Toybox.Application;
+        %tmp.7 = getv function %tmp.6 :getApp;
+        %tmp.8 = invoke %tmp.6 %tmp.7();
+        %tmp.9 = getv function %tmp.8 :getProperty;
+        %tmp.10 = "athlete_id";
+        %tmp.11 = invoke %tmp.8 %tmp.9(%tmp.10);
+        lputv %athleteId.1 %tmp.11;
+[ "C:\Users\itocchi\dev\widgets\strava-api\source\StravaSummaryTransation.mc" 53 8 ]
+        %tmp.12 = "athletes/";
+        %tmp.14 = lgetv %athleteId.1;
+        %tmp.15 = add %tmp.12 %tmp.14;
+        %tmp.16 = "/stats";
+        %tmp.17 = add %tmp.15 %tmp.16;
+        putv self :_action %tmp.17;
+C_Users_itocchi_dev_widgets_strava_api_source_StravaSummaryTransation_mc_47_34_stop:
+    }
+}
+[ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaSummaryTransation.mc"; @line = 7; ]
+<init> {
+}

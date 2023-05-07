@@ -1,0 +1,24 @@
+[ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaModel.mc"; @line = 8; ]
+class StravaModel{
+    [ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaModel.mc"; @line = 8; ]
+    <init> {
+    }
+    [ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaModel.mc"; @line = 8; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaModel.mc"; @line = 8; ]
+    function initialize() as Void {
+    }
+    [ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaModel.mc"; @line = 10; @position = 8; ]
+    var swim;
+    [ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaModel.mc"; @line = 11; @position = 8; ]
+    var bike;
+    [ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaModel.mc"; @line = 12; @position = 8; ]
+    var run;
+    [ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaModel.mc"; @line = 13; @position = 8; ]
+    var total;
+}
+[ @file = "C:\Users\itocchi\dev\widgets\strava-api\source\StravaModel.mc"; @line = 8; ]
+<init> {
+}

@@ -1,0 +1,101 @@
+import Toybox.Lang;
+using Toybox.WatchUi;
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics;
+using Toybox.Graphics as Gfx;
+
+module Rez {
+    module Drawables {
+        (:initialized) var gcm as Symbol;
+        (:initialized) var LauncherIcon as Symbol;
+
+        class header extends WatchUi.Drawable {
+
+            function initialize() {
+                Drawable.initialize({});
+            }
+
+            function draw(dc as Graphics.Dc) as Void {
+                if (self has :isVisible) {
+                    if (!self.isVisible) {
+                        return;
+                    }
+                }
+
+                dc.setColor(0x000000, Graphics.COLOR_TRANSPARENT);
+                dc.fillRectangle((0 + 0), (0 + 0), (240 - 0), (240 - 0));
+                dc.setColor(Graphics.COLOR_TRANSPARENT, 0x000000);
+
+                dc.setColor(0xFFFFFF, Graphics.COLOR_TRANSPARENT);
+                dc.fillRectangle(((0 + 0) + 0) + 0, ((0 + 0) + 0) + 0, ((240 - 0) - 0) - (2 * 0), 55 - (2 * 0));
+            }
+        }
+    } // Drawables
+
+    module Fonts {
+    } // Fonts
+
+    module JsonData {
+    } // JsonData
+
+    module Layouts {
+        function Summary(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_custom_drawable_header = new $.Rez.Drawables.header();
+            if (rez_cmp_local_custom_drawable_header.identifier == null) {
+                rez_cmp_local_custom_drawable_header.identifier = "header";
+            }
+
+            var rez_cmp_local_text_Title = new WatchUi.Text({:identifier=>"Title", :color=>Gfx.COLOR_BLUE, :locX=>(240 * 0.5), :locY=>0, :text=>$.Rez.Strings.titleLabel, :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_TINY});
+
+            return [rez_cmp_local_custom_drawable_header, rez_cmp_local_text_Title] as Array<WatchUi.Drawable>;
+        }
+
+        function ErrorLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_text_Message = new WatchUi.Text({:identifier=>"Message", :color=>0xFFFFFF, :locX=>(240 * 0.5), :locY=>((240 - dc.getFontHeight(Graphics.FONT_MEDIUM)) * 0.5), :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_MEDIUM});
+
+            return [rez_cmp_local_text_Message] as Array<WatchUi.Drawable>;
+        }
+
+        function LoginLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_bitmap_gcm = new WatchUi.Bitmap({:identifier=>"gcm", :rezId=>$.Rez.Drawables.gcm, :locX=>WatchUi.LAYOUT_HALIGN_CENTER, :locY=>0});
+            rez_cmp_local_bitmap_gcm.setLocation(((240 - rez_cmp_local_bitmap_gcm.width) * 0.5), rez_cmp_local_bitmap_gcm.locY);
+
+            var rez_cmp_local_text_1145625706 = new WatchUi.Text({:locX=>(240 * 0.5), :locY=>65, :text=>$.Rez.Strings.goToPhone, :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_SMALL});
+
+            var rez_cmp_local_text_1817008151 = new WatchUi.Text({:locX=>(240 * 0.5), :locY=>85, :text=>$.Rez.Strings.connectString3, :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_SMALL});
+
+            return [rez_cmp_local_bitmap_gcm, rez_cmp_local_text_1145625706, rez_cmp_local_text_1817008151] as Array<WatchUi.Drawable>;
+        }
+
+        function Gcm(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_bitmap_gcm = new WatchUi.Bitmap({:identifier=>"gcm", :rezId=>$.Rez.Drawables.gcm, :locX=>WatchUi.LAYOUT_HALIGN_CENTER, :locY=>0});
+            rez_cmp_local_bitmap_gcm.setLocation(((240 - rez_cmp_local_bitmap_gcm.width) * 0.5), rez_cmp_local_bitmap_gcm.locY);
+
+            var rez_cmp_local_text_1040252167 = new WatchUi.Text({:locX=>(240 * 0.5), :locY=>65, :text=>$.Rez.Strings.connectString1, :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_SMALL});
+
+            var rez_cmp_local_text_7037925182 = new WatchUi.Text({:locX=>(240 * 0.5), :locY=>85, :text=>$.Rez.Strings.connectString2, :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_SMALL});
+
+            var rez_cmp_local_text_1264270037 = new WatchUi.Text({:locX=>(240 * 0.5), :locY=>105, :text=>$.Rez.Strings.connectString3, :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_SMALL});
+
+            return [rez_cmp_local_bitmap_gcm, rez_cmp_local_text_1040252167, rez_cmp_local_text_7037925182, rez_cmp_local_text_1264270037] as Array<WatchUi.Drawable>;
+        }
+    } // Layouts
+
+    module Menus {
+    } // Menus
+
+    module Strings {
+        (:initialized) var totalLabel as Symbol;
+        (:initialized) var connectString1 as Symbol;
+        (:initialized) var connectString2 as Symbol;
+        (:initialized) var goToPhone as Symbol;
+        (:initialized) var titleLabel as Symbol;
+        (:initialized) var swimLabel as Symbol;
+        (:initialized) var runLabel as Symbol;
+        (:initialized) var loading as Symbol;
+        (:initialized) var error as Symbol;
+        (:initialized) var bikeLabel as Symbol;
+        (:initialized) var connectString3 as Symbol;
+        (:initialized) var AppName as Symbol;
+    } // Strings
+} // Rez
