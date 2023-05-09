@@ -1,9 +1,7 @@
 <layouts>
     <layout id="Summary">
         <drawable id="header" />
-
         <label id="Title" text="@Strings.titleLabel" x="center" y="center" font="Gfx.FONT_TINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_BLUE" />
-
 
     </layout>
 
