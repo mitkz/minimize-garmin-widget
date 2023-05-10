@@ -5,9 +5,6 @@
 //
 using Toybox.Application as App;
 
-const ApiUrl = "https://www.strava.com/api/v3/";
-const RedirectUri = "https://localhost";
-
 // The Application class is the bootstrap for the
 // widget. It handles app lifecycle
 class StravaApp extends App.AppBase {
