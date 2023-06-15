@@ -49,22 +49,13 @@ class StravaView extends Ui.View {
         //drawTime(dc);
         // Call the parent onUpdate function to redraw the layout
         // View.onUpdate(dc);
+
+        // Draw the background
         dc.setColor (Graphics.COLOR_WHITE, Graphics.COLOR_WHITE);
         dc.fillRectangle(0, 0, 240,240);
 
-        dc.setColor(0x000000, Graphics.COLOR_WHITE);
+        drawTime(dc);
 
-        var clockTime = Sys.getClockTime();
-        var hour = clockTime.hour.format("%02d");
-        var minute = clockTime.min.format("%02d");
-        var hour1 = hour.substring(0, 1);
-        var hour2 = hour.substring(1, 2);
-        var minute1 = minute.substring(0, 1);
-        var minute2 = minute.substring(1, 2);
-        
-        var TimeStr;
-        TimeStr = Lang.format("$1$ $2$ $3$ $4$", [hour1, hour2, minute1, minute2]);
-        dc.drawText(120, 120, Graphics.FONT_SYSTEM_LARGE, TimeStr, Graphics.TEXT_JUSTIFY_CENTER);
         // View.onUpdate(dc);
     }
 
