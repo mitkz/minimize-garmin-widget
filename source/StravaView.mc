@@ -31,7 +31,6 @@ class StravaView extends Ui.View {
 
     // Load your resources here
     function onLayout(dc as Dc) {
-        // setLayout(Rez.Layouts.Summary(dc));
 
     }
 
@@ -44,19 +43,12 @@ class StravaView extends Ui.View {
 
     // Update the view
     function onUpdate(dc) {
-
-        // Get and show the current time
-        //drawTime(dc);
-        // Call the parent onUpdate function to redraw the layout
-        // View.onUpdate(dc);
-
         // Draw the background
         dc.setColor (Graphics.COLOR_WHITE, Graphics.COLOR_WHITE);
         dc.fillRectangle(0, 0, 240,240);
 
         drawTime(dc);
 
-        // View.onUpdate(dc);
     }
 
     // Called when this View is removed from the screen. Save the
