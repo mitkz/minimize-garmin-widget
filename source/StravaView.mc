@@ -9,7 +9,12 @@ class StravaView extends Ui.View {
     // Constructor
     function initialize() {
         View.initialize();
+        
+        var timetable = [ 8, 9, 10, 11, 12, 13,
+                         14, 15, 16, 17, 18, 19, 20 ];
+
     }
+
 
     // Get and show the current time
     function drawTime(dc as Dc) as Void {
@@ -25,7 +30,10 @@ class StravaView extends Ui.View {
         
         var TimeStr;
         TimeStr = Lang.format("$1$ $2$ $3$ $4$", [hour1, hour2, minute1, minute2]);
-        dc.drawText(120, 175, Graphics.FONT_SYSTEM_LARGE, TimeStr, Graphics.TEXT_JUSTIFY_CENTER);
+
+        dc.drawText(120, 30, Graphics.FONT_NUMBER_HOT, "00:00\n00:00", Graphics.TEXT_JUSTIFY_CENTER);
+
+        dc.drawText(120, 190, Graphics.FONT_SYSTEM_LARGE, TimeStr, Graphics.TEXT_JUSTIFY_CENTER);
 
     }
 
