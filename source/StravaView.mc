@@ -6,7 +6,7 @@ using Toybox.Lang as Lang;
 // Main view for the application
 class StravaView extends Ui.View {
 
-    private var timetable = [[505,true],[1945,false],[2000,true],[2100,false],[2200,true],[2300,false],[2400,true]];
+    private var timetable = [[514,false],[628,true],[655,false],[745,true],[815,false],[900,true],[930,false],[1015,true],[1045,false],[1130,true],[1200,false],[1245,true],[1315,false],[1400,true],[1430,false],[1515,true],[1545,false],[1630,true],[1700,false],[1745,true],[1815,false],[1900,true],[1930,false],[2015,true],[2045,false],[2130,true],[2200,false],[2245,true],[2315,false],[2400,true],[2430,false]];
 
 
     // Constructor
@@ -48,10 +48,10 @@ class StravaView extends Ui.View {
         var TimeStr;
         TimeStr = Lang.format("$1$ $2$ $3$ $4$", [hour1, hour2, minute1, minute2]);
         var tex = Lang.format("$1$$2$", [hour,minute]);
-        var hours = return_time(1911);
+        var hours = return_time(tex.toNumber());
 
         dc.drawText(120, 30, Graphics.FONT_NUMBER_HOT, hours[0][0], Graphics.TEXT_JUSTIFY_CENTER);
-        dc.drawText(120, 80, Graphics.FONT_NUMBER_HOT, hours[1][0], Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(120, 100, Graphics.FONT_NUMBER_HOT, hours[1][0], Graphics.TEXT_JUSTIFY_CENTER);
 
         dc.drawText(120, 190, Graphics.FONT_SYSTEM_LARGE, TimeStr, Graphics.TEXT_JUSTIFY_CENTER);
 
